@@ -1,0 +1,130 @@
+body {
+  background-color: #f8f8f8;
+  font-family: 'Exo', sans-serif;
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+header img {
+  height: 60px;
+  margin: 20px;
+}
+
+p, h5 {
+  color: #697070;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+section h1 {
+  color: #2c3e50;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+label, input {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.fa {
+  color: #6eb92b;
+}
+
+input {
+  border-radius: 5px;
+  height: 30px;
+  width: 30vw;
+  margin: 7px 0 7px 0;
+}
+
+input[type=button] {
+height: 40px;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+background-color: #6eb92b;
+color: #ffffff;
+margin-bottom: 40px;
+width: 15vw;
+}
+
+.grid-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 0.2fr;
+  grid-gap: 15px;
+}
+
+.grid-container img {
+  max-width: 26vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.grid-item {
+  text-align: left;
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 7px 9px 22px -4px rgba(158,158,158,1);
+  -moz-box-shadow: 7px 9px 22px -4px rgba(158,158,158,1);
+  box-shadow: 7px 9px 22px -4px rgba(158,158,158,1);
+}
+
+.grid-item p {
+    padding: 0px 0px 0px 20px;
+}
+
+.grid-item a {
+  color: #6eb92b;
+  text-decoration: none;
+}
+
+.grid-item h2 {
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0px 0px 0px 20px;
+}
+
+.grid-item .line {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.line {
+  border-top: 1px solid #697070;
+  width: 100%;
+}
+
+.hide {
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
