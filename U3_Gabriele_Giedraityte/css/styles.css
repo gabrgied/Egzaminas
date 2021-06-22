@@ -29,8 +29,6 @@ section h1 {
 label, input {
   font-weight: 200;
   font-size: 20px;
-  border-width: 1px;
-  border-color: #697070;
 }
 
 .fa {
@@ -106,13 +104,13 @@ width: 15vw;
 }
 
 .hide {
-  -moz-animation: cssAnimation 0s ease-in 6s forwards;
+  -moz-animation: cssAnimation 0s ease-in 5s forwards;
     /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 6s forwards;
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
     /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 6s forwards;
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
     /* Opera */
-    animation: cssAnimation 0s ease-in 6s forwards;
+    animation: cssAnimation 0s ease-in 5s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
