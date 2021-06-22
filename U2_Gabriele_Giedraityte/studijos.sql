@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 2021 m. Bir 22 d. 12:55
+-- Generation Time: 2021 m. Bir 22 d. 13:18
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -69,7 +69,10 @@ INSERT INTO `komentarai` (`komentaro_ID`, `komentaras`, `kursas`, `komentatoriau
 (2, 'Nuostabi programa', 2, 'ssss@gmail.com', '0000-00-00 00:00:00'),
 (3, 'Nuostabi programa', 3, 'ssss@gmail.com', '0000-00-00 00:00:00'),
 (4, 'Nuostabi programa', 4, 'ssss@gmail.com', '0000-00-00 00:00:00'),
-(5, 'Nuostabi programa', 5, 'ssss@gmail.com', '0000-00-00 00:00:00');
+(5, 'Nuostabi programa', 5, 'ssss@gmail.com', '0000-00-00 00:00:00'),
+(6, 'Idomu', 1, 'anonymous', '0000-00-00 00:00:00'),
+(7, 'Super idomu', 1, 'anonymous', '0000-00-00 00:00:00'),
+(8, 'Idomu', 3, 'anonymous', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
